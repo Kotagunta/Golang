@@ -1,0 +1,22 @@
+					### Go lang Project ###
+
+(1.) Build a simple web server with Golang.
+     -------------------------------------
+	Go HTTP Server
+	Go can be also used to create web applications. Net/http is a library package used to build web applications. It has HandelFunc() function which routes the incoming request to its corresponding function. The ListenAndServe function is used to create a resource server which listens to the provided port. The function someFunc has the http.ResponceWriter and http.Request type parameter. It is responsible to take the incoming request and after processing the return response.
+		
+
+	// code . ---> It will open new window in VS Code.
+	// Package log ---> It defines a type, Logger, with methods for formatting output.
+		Example:package main
+			import "log"
+			func main() {
+			   log.Println("Hello world!")
+			}
+	// Package net/http ---> http provides HTTP client and server implementations.
+	// http.fileserver ---> we can use to serve files over HTTP from a specific directory.
+	// http.HandleFunc ---> Each call to the function sets up a handler function for a specific request path in the default server multiplexer.
+	// http.ListenAndServe---> This function to start the server and listen for requests.
+	// http.ResponseWrite---> this allows the Golang HTTP Server to construct HTTP Response.
+	
+	
